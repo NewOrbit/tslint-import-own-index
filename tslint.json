@@ -1,3 +1,6 @@
 {
-    "rulesDirectory": "./dist"
+    "rulesDirectory": "./dist",
+    "rules": {
+        "import-own-index": true
+    }
 }
