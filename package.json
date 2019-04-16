@@ -1,6 +1,6 @@
 {
 	"name": "tslint-import-own-index",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "TSLint rule to prevent importing from your own index",
 	"main": "tslint.json",
 	"files": [
