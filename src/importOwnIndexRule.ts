@@ -1,7 +1,7 @@
 import { ImportDeclaration, SourceFile } from "typescript";
 import { RuleFailure, Rules, RuleWalker } from "tslint";
 
-const importRegex = /"\.\/?"\;$/;
+const importRegex = /"\.(\/|\/index)?"\;?$/i;
 const hasDisallowedImport = (text: string) => importRegex.test(text);
 
 class Walker extends RuleWalker {
