@@ -1,0 +1,40 @@
+{
+	"name": "tslint-import-own-index",
+	"version": "1.0.0",
+	"description": "TSLint rule to prevent importing from your own index",
+	"main": "tslint.json",
+	"files": [
+		"tslint.json",
+		"dist/"
+	],
+	"scripts": {
+		"prepublishOnly": "npm run build",
+		"prebuild": "rm -rf dist",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NewOrbit/tslint-import-own-index.git"
+	},
+	"keywords": [
+		"tslint",
+		"index",
+		"typescript",
+		"import"
+	],
+	"author": "NewOrbit Ltd",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NewOrbit/tslint-import-own-index/issues"
+	},
+	"homepage": "https://github.com/NewOrbit/tslint-import-own-index#readme",
+	"devDependencies": {
+		"@types/node": "^11.13.4",
+		"tslint": "^5.15.0",
+		"typescript": "^3.4.3"
+	},
+	"peerDependencies": {
+		"tslint": "^5.15.0",
+		"typescript": "^3.4.3"
+	}
+}
