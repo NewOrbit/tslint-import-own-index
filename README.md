@@ -7,8 +7,6 @@ The following imports will be disallowed:
 - `"./";`
 - `".";`
 - `"./index";`
-- `"./index.ts";`
-- `"./INDEX.TS";`
 
 ## Installation
 
